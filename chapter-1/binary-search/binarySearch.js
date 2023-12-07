@@ -14,6 +14,8 @@ function binarySearch(list, item) {
       high = middle - 1;
     }
   }
+
+  return false;
 }
 
 const list = [1, 3, 5, 7, 9];
